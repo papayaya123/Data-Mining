@@ -1,0 +1,8 @@
+Hierarchical_Clustering how to do
+
+1. assign each item to its own cluster
+2. Compare distance between cluster
+3. Find the closest 
+4. repeat 2 3
+
+然後有很多特殊的方法來測試距離 但是我們現在所運用的是用一般的歐式距離

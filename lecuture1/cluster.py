@@ -119,7 +119,7 @@ def fit_custom_hclust(
 
         DF = centroid_linkage(DF, groups)
 
-    return DF, levels, min_values
+    return DF, levels, min_values #他會回傳三個最後的東東 某一層的是怎麼分類的 最短的距離是多少
 
 
 # ========= 把 levels/mins 轉 SciPy linkage，並提供畫樹/切樹 =========
